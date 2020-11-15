@@ -1,0 +1,16 @@
+.navigation {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.login {
+    margin-left: 20px;
+}
