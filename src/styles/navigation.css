@@ -8,7 +8,17 @@
 .navigation a {
     margin-right: 20px;
     text-decoration: none;
-    color: black;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+
+
+.divider {
+    color:#7f5af0;
 }
 
 .login {

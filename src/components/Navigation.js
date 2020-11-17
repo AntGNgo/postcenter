@@ -5,14 +5,14 @@ import '../styles/navigation.css'
 const Navigation = () => {
     return (
         <nav className="navigation">
-            <h1>Last Writes</h1>
+            <h1>Writing Hub</h1>
             <ul>
-                    <Link to="/">Home</Link>
-                    <Link to="/writers">Writers</Link>
-                    <Link to="/about">About</Link>
-                    | 
-                        <Link to="/login" className="login">Login</Link>
-                        <Link to="/signup">Sign Up</Link>
+                   <li><Link to="/">Home</Link></li>
+                   <li><Link to="/writers">Writers</Link></li>
+                   <li><Link to="/about">About</Link></li>
+                   <li className="divider">|</li>
+                   <li><Link to="/login" className="login">Login</Link></li>
+                   <li><Link to="/signup">Sign Up</Link></li>
             </ul>
         </nav>
     )
