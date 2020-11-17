@@ -1,10 +1,10 @@
 import React from 'react'
-import Navigation from '../components/Navigation'
+import '../styles/globalStyles.css'
 
 const Writers = () => {
     return (
         <div>
-            <h1>Writers</h1>
+            <h1 className='global-h1'>Writers</h1>
         </div>
     )
 }
