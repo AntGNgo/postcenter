@@ -7,4 +7,19 @@
 
 .signup-form input {
     margin-bottom: 20px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.signup-form input:focus {
+    outline: none;
+    border: none;
+}
+
+.signup-btn {
+    border-radius: 10px;
+    border: 0;
+    padding: 10px 15px;
+    background: #7f5af0;
+    color: #fffffe;
 }
